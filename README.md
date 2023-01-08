@@ -1,2 +1,2 @@
-# Pass-generator
+<p>💩 Have fun kiddo.</p>
  
