@@ -1,5 +1,5 @@
 import os
-os.system("cls && title[Calculator] ~ Kanika and Nancy")
+os.system("cls")
 
 print('''\t\t\t\t           ______      __           __      __            
          \t\t\t\t  / ____/___ _/ /______  __/ /___ _/ /_____  _____
@@ -22,34 +22,34 @@ while True:
     choice = int(input("\n\nEnter your choice: "))
 
     if choice == 1:
-        num_one = int(input("\nEnter first number: "))
-        num_two = int(input("Enter second number: "))
-        print("Result:", num_one + num_two)
+        a = int(input("\nEnter first number: "))
+        b = int(input("Enter second number: "))
+        print("Result:", a + b)
 
     elif choice == 2:
-        num_one = int(input("\nEnter first number: "))
-        num_two = int(input("Enter second number: "))
-        print("Result:", num_one - num_two)
+        c = int(input("\nEnter first number: "))
+        d = int(input("Enter second number: "))
+        print("Result:", c - d)
 
     elif choice == 3:
-        num_one = input("\nEnter first number: ")
-        num_two = input("Enter second number: ")
-        print("Result:", num_one * num_two)
+        e = input("\nEnter first number: ")
+        f = input("Enter second number: ")
+        print("Result:", e * f)
 
     elif choice == 4:
-        divident = int(input("\nEnter divident: "))
-        divisor = int(input("Enter divisor: "))
-        print("Quotient:", divident / divisor)
+        g = int(input("\nEnter divident: "))
+        h = int(input("Enter divisor: "))
+        print("Quotient:", g / h)
 
     elif choice == 5:
-        divident = int(input("\nEnter dividend: "))
-        divisor = int(input("Enter divisor: "))
-        print("Result:", divident // divisor)
+        i = int(input("\nEnter dividend: "))
+        j = int(input("Enter divisor: "))
+        print("Result:", i // j)
 
     elif choice == 6:
-        base_value = int(input("\nEnter base value: "))
-        exp_power = int(input("Enter exponential power: "))
-        print("Result:", base_value ** exp_power) 
+        k = int(input("\nEnter base value: "))
+        l = int(input("Enter exponential power: "))
+        print("Result:", k ** l) 
 
     elif choice == 7:
         print(" \nThanks for using the calculator ")
