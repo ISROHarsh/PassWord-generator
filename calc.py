@@ -1,14 +1,7 @@
 import os
 os.system("cls")
 
-print('''\t\t\t\t           ______      __           __      __            
-         \t\t\t\t  / ____/___ _/ /______  __/ /___ _/ /_____  _____
-         \t\t\t\t / /   / __ `/ / ___/ / / / / __ `/ __/ __ \/ ___/
-         \t\t\t\t/ /___/ /_/ / / /__/ /_/ / / /_/ / /_/ /_/ / /    
-         \t\t\t\t\____/\__,_/_/\___/\__,_/_/\__,_/\__/\____/_/     
-                                                              ''')
-
-print("Welcome To Calculator")
+print("*********Welcome To Calculator********")
 
 print("\n\nchoose 1 For additon")
 print("choose 2 For subtraction")
